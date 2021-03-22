@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ac31c2a-4904-45f1-a9cb-a05ee7ac6918" extendedConfigurationObject="2535829d-240e-44b9-b585-67b4c66ccb2f">
+  <producedTypes>
+    <objectType typeId="b321d832-12d8-46e5-9055-4389619a2d1b" valueTypeId="03df2b3d-700b-4de6-853d-c30d0e67cc77"/>
+    <refType typeId="32fc68ca-1948-49db-a15e-1e4f18d9aa02" valueTypeId="3cf0059a-5915-4e09-a398-b705b6835705"/>
+    <selectionType typeId="c0689238-ce40-4e4b-9a61-1d65208aa2a3" valueTypeId="d499f78e-b78b-4910-9dd7-e5873f8b1684"/>
+    <listType typeId="be28749e-511c-4421-ace5-e5a97a0f3401" valueTypeId="2dc12e94-a709-48a8-b373-7c2dc69e6624"/>
+    <managerType typeId="572b69c2-8e86-4921-8f99-1006b613a15d" valueTypeId="bd1b724d-d06e-44ad-8ae0-ccc976b398ed"/>
+  </producedTypes>
+  <name>ПлатежноеПоручение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="6ebfa4ad-5b45-44ce-a2af-a58e67caef7f">
+    <name>db_Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Db ключ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e93de86b-830a-49e5-a492-588c55df99cb">
+    <name>db_СтатусБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Db статус банк</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

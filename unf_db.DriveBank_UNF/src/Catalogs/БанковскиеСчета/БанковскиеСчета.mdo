@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e5cdc86c-3b70-4b38-814c-eedd63e97dce" extendedConfigurationObject="46bd4919-eaaa-4d20-9448-1c15fffa60a4">
+  <producedTypes>
+    <objectType typeId="f8a165ed-8911-405f-93b0-b289cdc2e0dc" valueTypeId="65a015b9-d4c3-4c8e-85b9-f036343aa22d"/>
+    <refType typeId="891f9a10-0521-49c2-b866-931a2fa4c677" valueTypeId="bee8d692-54f8-441f-a8ca-e427d9aefe31"/>
+    <selectionType typeId="6411c0ef-1d55-430a-9533-97e8ba64ee2f" valueTypeId="f88543ce-dcd8-45b9-a541-d37037aac6b2"/>
+    <listType typeId="99bc0c64-9222-47c8-ad94-b3abd230b528" valueTypeId="22d3c48f-9dd5-46df-90aa-e658b2ea40b1"/>
+    <managerType typeId="6b54eeb7-3f16-41f3-a9d6-34a1c8b954f8" valueTypeId="e40aa34b-91ce-4486-b9b4-9d5b452bc495"/>
+  </producedTypes>
+  <name>БанковскиеСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <owners>Checked</owners>
+  </extension>
+  <owners>Catalog.Организации</owners>
+  <attributes uuid="9329b171-972f-4175-949e-43382778f8ca">
+    <name>db_ИспользуетсяDriveBank</name>
+    <synonym>
+      <key>ru</key>
+      <value>Db используется drive bank</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e2fb427-b1f4-48e2-8e48-1b0cf7bed76a" extendedConfigurationObject="43078d73-5cc3-4032-af67-5a0e45e8dd09">
+    <name>НомерСчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>34</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8af0432e-7558-4b08-86f9-a9accb5da9cb" extendedConfigurationObject="eb87f954-3763-41dd-a083-2e503d5e70e9">
+    <name>Банк</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Банки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d440374a-8057-4243-a422-c831f10c2019" extendedConfigurationObject="e6278b78-5da6-4cc8-97b4-530fccb266d6">
+    <name>ВалютаДенежныхСредств</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

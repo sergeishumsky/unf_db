@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="904dd0c5-ec8f-4ff9-aceb-7c2338d7fd93" extendedConfigurationObject="122f9628-1dc8-4c27-9883-60c9b12afd14">
+  <producedTypes>
+    <objectType typeId="d09226c9-d5d1-458e-b82a-13b7e2f4bd0a" valueTypeId="cc675dbe-63b4-4175-ae2f-57c216c5fdb7"/>
+    <refType typeId="7c8b6b62-9e63-4e14-807a-14e7c128537b" valueTypeId="af87be5e-156e-4555-86c9-299fd27c3176"/>
+    <selectionType typeId="2259928e-3e5b-4ab8-83b6-61704bb69092" valueTypeId="861d55be-9fe8-4f5b-b032-cd27701cfc30"/>
+    <listType typeId="8c914fd4-0a0e-4ad2-88c5-b7b40c2f1572" valueTypeId="6d59bc98-277a-4529-9d33-deb2a6bb517c"/>
+    <managerType typeId="9bcefc0c-c308-4f58-a5da-a7ea03f94504" valueTypeId="6501ffec-2c9b-4b13-845a-4db1a86364a3"/>
+  </producedTypes>
+  <name>ПоступлениеНаСчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="77e7ed13-2b3d-4582-acd9-ab1061c5d6cc">
+    <name>db_Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Db ключ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

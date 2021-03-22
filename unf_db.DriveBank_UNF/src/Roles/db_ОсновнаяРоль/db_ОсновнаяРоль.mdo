@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="114c3323-e15c-420a-85c5-db28a9c78dc6">
+  <name>db_ОсновнаяРоль</name>
+</mdclass:Role>

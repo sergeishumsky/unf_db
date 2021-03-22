@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04cd2d24-fcfb-430b-a8ac-8a62b2b17633">
+  <name>db_DriveBank</name>
+  <synonym>
+    <key>ru</key>
+    <value>DriveBank</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.db_DriveBank16</picture>
+  </picture>
+  <content>DataProcessor.db_DriveBank</content>
+  <content>CommonPicture.db_DriveBank16</content>
+  <content>CommonPicture.db_DriveBank16Red</content>
+</mdclass:Subsystem>

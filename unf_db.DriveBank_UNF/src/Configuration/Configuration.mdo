@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2649fb08-dae1-479d-a7ea-f71b3827c621">
+  <name>DriveBank_UNF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Drive bank UNF</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="90653016-08da-41d8-9b82-227c2362086f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="eb075831-fcc7-47b3-a3d5-a28bdf9a9c1e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="39a88b5c-23b6-47ff-97cc-961753667959"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e9860ab8-c199-4e7a-9dcf-eba46cb53f0a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b2a3b6b1-7939-4aaf-bd63-aaaefee7aadd"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c6793914-1d46-4e18-b4eb-5d9efc0993a2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c2ea793a-4e77-444c-9be6-1916d109428c"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>db_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.db_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="6d67fd0b-19da-45b3-9d16-4d21affe9ee7" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.db_DriveBank</subsystems>
+  <subsystems>Subsystem.ДенежныеСредства</subsystems>
+  <commonPictures>CommonPicture.db_DriveBank16</commonPictures>
+  <commonPictures>CommonPicture.db_DriveBank16Red</commonPictures>
+  <commonPictures>CommonPicture.db_DriveBank16Лента</commonPictures>
+  <commonPictures>CommonPicture.СостоянияДокумента</commonPictures>
+  <roles>Role.db_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.db_ИнтерфейсыСервер</commonModules>
+  <commonModules>CommonModule.db_ОбработкаДокументов</commonModules>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.ПлатежноеПоручение</documents>
+  <documents>Document.ПоступлениеНаСчет</documents>
+  <documents>Document.РасходСоСчета</documents>
+  <dataProcessors>DataProcessor.db_DriveBank</dataProcessors>
+</mdclass:Configuration>

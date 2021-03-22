@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4b170538-9b3f-4fab-a3ec-0923a15fe592" extendedConfigurationObject="43c06b08-f3da-4568-a211-e6d049e6c2d7">
+  <producedTypes>
+    <objectType typeId="ff5a5dce-0722-4c55-a624-4748c83c843f" valueTypeId="bd24ec8f-24c7-451c-8c2c-336f29f3ff0e"/>
+    <refType typeId="bd9f82b4-2592-43b8-8f95-40c504c1596e" valueTypeId="b7dfd879-726d-4f32-9e35-e86652708dc2"/>
+    <selectionType typeId="b82c313f-a61a-4c58-a2ae-04141b220b77" valueTypeId="770085a1-571e-4481-8f89-8a4979a689c5"/>
+    <listType typeId="d70e402d-d52b-40b7-bb5c-a81508cd131c" valueTypeId="67322965-0849-447c-adb4-b3edcac7dda2"/>
+    <managerType typeId="36428fc0-063e-4fc3-b389-0e2691c60a95" valueTypeId="5f7aec69-b113-445f-b4bb-95e743665c88"/>
+  </producedTypes>
+  <name>Банки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

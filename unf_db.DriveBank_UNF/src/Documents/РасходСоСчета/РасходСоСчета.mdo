@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="68802c50-5902-46c5-8cd4-6067e2061fda" extendedConfigurationObject="6ea99190-7a64-4745-85dc-646d18445bb4">
+  <producedTypes>
+    <objectType typeId="e6dcdcbe-7d82-47f8-8acc-62b3c1b10092" valueTypeId="79c40eb2-71df-4294-84f6-d2c25f82da01"/>
+    <refType typeId="c4a807a0-1d76-4096-80cb-b6212ed19b41" valueTypeId="3d2a4cd6-99df-44ff-8401-7c3466689936"/>
+    <selectionType typeId="c66da68f-252c-410a-8368-40a8dc41e360" valueTypeId="50fd8f56-55ff-4c37-96f4-b9da5222efd0"/>
+    <listType typeId="1bb1c90b-e57c-4ee8-a74f-db0e1b140965" valueTypeId="8068b403-f16f-4ac4-a238-63b244abec44"/>
+    <managerType typeId="afc66a02-f9e7-48f2-ab53-8afa4e72fda6" valueTypeId="1edb17f9-64ff-4c27-a357-2e8e641a1044"/>
+  </producedTypes>
+  <name>РасходСоСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="e4970297-3fbb-41bd-9db2-8a74e93b3bbe">
+    <name>db_Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Db ключ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
